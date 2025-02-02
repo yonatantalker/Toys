@@ -1,0 +1,37 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/ivToy"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_placeholder" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Toy Name"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="-2dp" />
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="76dp"
+            tools:layout_editor_absoluteY="29dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
